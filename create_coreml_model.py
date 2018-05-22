@@ -142,7 +142,7 @@ if __name__ == '__main__':
                                                             green_bias=-1.0,
                                                             blue_bias=-1.0
                                                             )
-        coreml_model.short_description = 'Model for tracking specific volvo interior features: {}'.format(json.dumps(labels))
+        coreml_model.short_description = 'Model for tracking toys: {}'.format(json.dumps(labels))
 
     elif model_architecture == "Full Yolo":
         input_image = Input(shape=(model_input_size, model_input_size, 3))
