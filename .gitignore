@@ -2,3 +2,4 @@
 /training
 /backend
 *.pyc
+/preprocessing.pyc
