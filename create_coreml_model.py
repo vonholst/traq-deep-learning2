@@ -164,7 +164,7 @@ if __name__ == '__main__':
                                                             image_input_names='image',
                                                             image_scale=1./255.,
                                                             )
-        coreml_model.short_description = 'Model for tracking specific volvo interior features: {}'.format(
+        coreml_model.short_description = 'Traq part 3'.format(
             json.dumps(labels))
 
     else:
